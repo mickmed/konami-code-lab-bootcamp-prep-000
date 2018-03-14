@@ -5,7 +5,6 @@ function init() {
   docBody.addEventListener('keydown', onKeyDownHandler) 
   const alphabet = [65, 66, 67];
   let index = 0;
- 
   function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);
     console.log(key);

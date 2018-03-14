@@ -8,7 +8,7 @@ function init() {
   
   const alphabet = [65, 66, 67];
  
-// Keep track of index outside of the event handler.
+
   let index = 0;
  
 

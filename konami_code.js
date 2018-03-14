@@ -10,7 +10,7 @@ function init() {
     console.log(key);
     console.log(e.which);
    
-    if (key === alphabet[index]) {
+    if (key === code[index]) {
       index++;
    
       if (index === alphabet.length) {

@@ -1,7 +1,7 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 function init() {
-  const docBody = document.getElementByTagName('label');
+  const docBody = document.getElementsByTagName('label');
   docBody.addEventListener('click', function(event) {
   alert('I was clicked!')})
   const alphabet = [65, 66, 67];
